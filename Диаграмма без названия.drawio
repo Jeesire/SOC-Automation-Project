@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7KVBtUISHsDDhD3bFEeo-1" value="Windows 10 Client&lt;div&gt;Wazuh Agent&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.workstation_pc;" vertex="1" parent="1">
+        <mxCell id="7KVBtUISHsDDhD3bFEeo-1" value="Windows 10 Client&lt;div&gt;Wazuh Agent&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#b85450;fillColor=#f8cecc;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.workstation_pc;" vertex="1" parent="1">
           <mxGeometry x="400" y="400" width="53" height="59" as="geometry" />
         </mxCell>
         <mxCell id="7KVBtUISHsDDhD3bFEeo-2" value="Router" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.router" vertex="1" parent="1">
@@ -13,30 +13,57 @@
         <mxCell id="7KVBtUISHsDDhD3bFEeo-3" value="Internet" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon27;" vertex="1" parent="1">
           <mxGeometry x="402" y="190" width="50" height="25" as="geometry" />
         </mxCell>
+        <mxCell id="7KVBtUISHsDDhD3bFEeo-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;strokeColor=#FF4F4F;" edge="1" parent="1" source="7KVBtUISHsDDhD3bFEeo-4" target="7KVBtUISHsDDhD3bFEeo-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KVBtUISHsDDhD3bFEeo-36" value="8. Perform Responcive Action" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7KVBtUISHsDDhD3bFEeo-35">
+          <mxGeometry x="-0.3947" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7KVBtUISHsDDhD3bFEeo-4" value="Wazuh Manager" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon27;" vertex="1" parent="1">
-          <mxGeometry x="270" y="190" width="50" height="25" as="geometry" />
+          <mxGeometry x="180" y="190" width="50" height="25" as="geometry" />
         </mxCell>
         <mxCell id="7KVBtUISHsDDhD3bFEeo-5" value="TheHive" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon27;" vertex="1" parent="1">
-          <mxGeometry x="540" y="190" width="50" height="25" as="geometry" />
+          <mxGeometry x="615" y="190" width="50" height="25" as="geometry" />
         </mxCell>
         <mxCell id="7KVBtUISHsDDhD3bFEeo-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="7KVBtUISHsDDhD3bFEeo-6" target="7KVBtUISHsDDhD3bFEeo-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7KVBtUISHsDDhD3bFEeo-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="7KVBtUISHsDDhD3bFEeo-6" target="7KVBtUISHsDDhD3bFEeo-5">
+        <mxCell id="7KVBtUISHsDDhD3bFEeo-28" value="5. Enrich IOCS&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7KVBtUISHsDDhD3bFEeo-16">
+          <mxGeometry x="0.2427" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KVBtUISHsDDhD3bFEeo-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="7KVBtUISHsDDhD3bFEeo-6" target="7KVBtUISHsDDhD3bFEeo-5">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7KVBtUISHsDDhD3bFEeo-26" value="5. Send Alerts" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7KVBtUISHsDDhD3bFEeo-17">
+          <mxGeometry x="0.0272" y="2" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7KVBtUISHsDDhD3bFEeo-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;shape=link;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="7KVBtUISHsDDhD3bFEeo-6" target="7KVBtUISHsDDhD3bFEeo-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="500" y="230" />
+              <mxPoint x="520" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="7KVBtUISHsDDhD3bFEeo-20" value="6. Send Email" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7KVBtUISHsDDhD3bFEeo-18">
+          <mxGeometry x="-0.0191" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7KVBtUISHsDDhD3bFEeo-6" value="Shuffle" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon27;" vertex="1" parent="1">
-          <mxGeometry x="402" y="90" width="50" height="25" as="geometry" />
+          <mxGeometry x="401.5" y="60" width="50" height="25" as="geometry" />
         </mxCell>
         <mxCell id="7KVBtUISHsDDhD3bFEeo-9" value="SOC Analyst" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
-          <mxGeometry x="570" y="280" width="60" height="45" as="geometry" />
+          <mxGeometry x="610" y="310" width="60" height="45" as="geometry" />
         </mxCell>
         <mxCell id="7KVBtUISHsDDhD3bFEeo-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.496;entryY=1.062;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="7KVBtUISHsDDhD3bFEeo-1" target="7KVBtUISHsDDhD3bFEeo-2">
           <mxGeometry relative="1" as="geometry" />
@@ -52,18 +79,60 @@
         <mxCell id="7KVBtUISHsDDhD3bFEeo-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.944;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="7KVBtUISHsDDhD3bFEeo-3" target="7KVBtUISHsDDhD3bFEeo-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="7KVBtUISHsDDhD3bFEeo-27" value="2. Receive Events" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7KVBtUISHsDDhD3bFEeo-14">
+          <mxGeometry x="0.0599" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7KVBtUISHsDDhD3bFEeo-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.496;entryY=0.936;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f5f5f5;strokeColor=#666666;shape=link;exitX=0.688;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7KVBtUISHsDDhD3bFEeo-4" target="7KVBtUISHsDDhD3bFEeo-6">
           <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KVBtUISHsDDhD3bFEeo-25" value="3. Send Alerts" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7KVBtUISHsDDhD3bFEeo-15">
+          <mxGeometry x="-0.1252" y="-2" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KVBtUISHsDDhD3bFEeo-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.848;entryY=0.84;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="7KVBtUISHsDDhD3bFEeo-9" target="7KVBtUISHsDDhD3bFEeo-3">
+          <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="360" y="160" />
+              <mxPoint x="520" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7KVBtUISHsDDhD3bFEeo-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.848;entryY=0.84;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" edge="1" parent="1" source="7KVBtUISHsDDhD3bFEeo-9" target="7KVBtUISHsDDhD3bFEeo-3">
+        <mxCell id="7KVBtUISHsDDhD3bFEeo-24" value="7. Send &amp;amp; Receive" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7KVBtUISHsDDhD3bFEeo-19">
+          <mxGeometry x="0.0775" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KVBtUISHsDDhD3bFEeo-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.816;entryY=0.84;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;exitX=0;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7KVBtUISHsDDhD3bFEeo-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="597.2" y="350.875" as="sourcePoint" />
+            <mxPoint x="429.99999999999994" y="215" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KVBtUISHsDDhD3bFEeo-30" value="8. Send Respond Action" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7KVBtUISHsDDhD3bFEeo-29">
+          <mxGeometry x="-0.0075" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KVBtUISHsDDhD3bFEeo-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.186;entryY=0.92;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="7KVBtUISHsDDhD3bFEeo-3" target="7KVBtUISHsDDhD3bFEeo-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="490" y="270" />
+              <mxPoint x="360" y="170" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KVBtUISHsDDhD3bFEeo-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.424;entryY=0.168;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;fillColor=#f8cecc;strokeColor=#FF4F4F;" edge="1" parent="1" source="7KVBtUISHsDDhD3bFEeo-6" target="7KVBtUISHsDDhD3bFEeo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7KVBtUISHsDDhD3bFEeo-34" value="8. Send Respond Action" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7KVBtUISHsDDhD3bFEeo-33">
+          <mxGeometry x="0.4435" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
